@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra Papel o Tijera Mejorado</title>
+    <link rel="icon" href="/images/spock.png">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="titulo">
+        <h1>Piedra Papel Tijera Lagarto o Spock</h1>
+    </header>
+    <section class="cabecera">
+        <div class="navbar">
+            <ul>
+                <li>partidas:</li><span class="cantidades" id="partidas-res">0</span>
+                <li>maquina:</li><span class="cantidades" id="maquina-res">0</span>
+                <li>jugador:</li><span class="cantidades" id="jugador-res">0</span>
+                <li>empates:</li><span class="cantidades" id="score-res">0</span>
+            </ul>
+        </div>
+    </section>
+    <section class="fin">
+        <span class="mensaje" id="mensaje">Por favor elige una opcion</span>
+    </section>
+    <section class="cuerpo">
+        <span class="vs">maquina</span>
+        <div class="maquina">
+            <img src="/images/piedra.png" alt="maquina" id="img-maquina">
+        </div>
+        <span class="vs">VS</span>
+        <div class="jugador">
+            <img src="/images/piedra.png" alt="jugador" id="img-jugador">
+        </div>
+        <span class="vs">jugador</span>
+    </section>
+    <section class="botonera">
+        <button class="btn" type="button" id="piedra-btn">
+            <img src="images/piedra.png"/>
+        </button>
+        <button class="btn" type="button" id="papel-btn">
+            <img src="images/papel.png"/>
+        </button>
+        <button class="btn" type="button" id="lagarto-btn">
+            <img src="images/lagarto.png"/>
+        </button>
+        <button class="btn" type="button" id="tijera-btn">
+            <img src="images/tijera.png"/>
+        </button>
+        <button class="btn" type="button" id="spook-btn">
+            <img src="images/spock.png"/>
+        </button>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

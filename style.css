@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap');
+
+html{
+    text-transform: capitalize;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 97.5vh;
+    background: linear-gradient(to bottom, rgba(21, 21, 94, 0.5) , rgba(255,255,255,0.1) 60%);
+}
+
+h1{
+    padding: 1rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.titulo{
+    background: #5a5d92;
+    border-radius: 3rem;
+    border: solid  .5rem rgb(21, 21, 94);
+    height: auto;
+}
+
+.navbar{
+    display: flexbox;
+}
+
+.cabecera{
+    background: #5a5d92;;
+    border-radius: 2rem;
+    height: 3rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    text-decoration: none;
+    font-size: 2rem;
+    height: 3rem;
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
+
+.cantidades{
+    padding-left: 1rem;
+    margin-top: 0;
+    font-size: 2rem;
+    height: 3rem;
+}
+
+.cuerpo{
+    padding: 0rem;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    background: #5a5d92;
+    border-radius: 2rem;
+    border: solid  .5rem rgb(21, 21, 94);
+}
+
+.maquina{
+    width: 10rem; height: 10rem;
+}
+
+.jugador{
+    width: 10rem; height: 10rem;
+}
+
+.vs{
+    font-size: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.botonera{
+    background: #5a5d92;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8rem; width: 70%;
+    border-radius: 1.5rem;
+    margin: 0 auto;
+}
+
+.btn{
+    height: 8rem; width: 8rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background: none;
+    border-radius: 4rem;
+    border: solid  .2rem rgba(21, 21, 94, 0.5);
+}
+
+.btn:hover{
+    border: solid  .2rem rgba(21, 21, 94, 0.5);
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4rem;
+}
+
+.fin{
+    margin: 1rem;
+    background: #5a5d92;;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 2rem;
+}
+
+.mensaje{
+    font-size: 3rem;
+}
+
+img{
+    width: 100%;
+}
